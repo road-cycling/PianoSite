@@ -1,0 +1,138 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+
+}
+
+.bannermain {
+  background: #5F9CD3;
+  height: 35px;
+  text-align: center;
+  color: black;
+}
+
+.buttonmain {
+  height: 100%;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 1em;
+  transition: all 0.3s;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  width: 250px;
+  text-decoration: none;
+}
+
+button:hover {
+  color: white;
+}
+
+button a {
+  text-decoration: none;
+}
+
+#textbox {
+  
+}
+
+#nathan {
+  height: 200px;
+  width: 200px;
+  float:right;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.container {
+  margin: auto;
+  width: 50%;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.container--fit {
+  width: 90%;
+}
+
+.containerfit2{
+  float:left;
+  width: 45%;
+  padding: 2.5%;
+  background-color: white;
+}
+
+.containerfit2 img {
+  height: 400px;
+  width: 400px;
+}
+
+
+.update {
+
+}
+
+.space {
+  padding-top: 75px;
+}
+
+.instruments {
+  background-color: black;
+  padding: 100px 20px 700px 20px;
+}
+
+.row {
+
+  float: left;
+  width: 30%;
+  padding: 1.33%;
+  display: inline-block
+}
+
+.row h2 {
+  text-align: center;
+  color: white;
+}
+
+.megahr {
+  width: 75%;
+  color: #5F9CD3;
+  border-color: #5F9CD3;
+  background-color: #5F9CD3;
+}
+
+.megahr--lower {
+  width: 50%;
+}
+
+.row img {
+  padding-top: 5px;
+}
+
+.instruments .row p {
+  color: white;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.footer {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+p {
+  font-size: .9em;
+}
+
+.footer img {
+  height: 75px;
+  width: 75px;
+  bottom: 0;
+}
